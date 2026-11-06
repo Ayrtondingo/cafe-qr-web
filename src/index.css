@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+/* Tokens de diseño de la aplicación (Tailwind v4). */
+@theme {
+  --color-brand-50: #fbf6f2;
+  --color-brand-100: #f3e6dc;
+  --color-brand-500: #a4683f;
+  --color-brand-600: #8c5532;
+  --color-brand-700: #7c4a2d;
+  --color-brand-900: #3f2516;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-stone-50 text-stone-900 antialiased;
+  }
+}
